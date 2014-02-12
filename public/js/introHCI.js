@@ -55,6 +55,6 @@ function addProject(result) {
 	console.log(result);
 	var idNumber = result.id;
 	$("#project" + idNumber + " .details").html('<img src="' + result.image + '" class="detailsImage">' 
-		+ '<h6>' + result.date + '</h6>' 
+		+ '<p><b>' + result.date + '</b></p>' 
 		+ '<p>' + result.summary + '</p>');
 }
